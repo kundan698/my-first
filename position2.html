@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        
+        .header {
+            width: 1320px;
+            display: flex;
+            margin: auto;
+        }
+        
+        .mainHeader {
+            width: 30%;
+            height: 280px;
+            display: flex;
+            margin: 1.5%;
+            border: 1px solid red;
+            position: relative;
+            flex-wrap: wrap;
+            position: relative;
+        }
+        
+        .mainHeader img {
+            height: 280px;
+            width: 100%;
+            display: block;
+        }
+        
+        .content {
+            height: 280px;
+            width: 100%;
+            background-color: #0000006a;
+            color: aliceblue;
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 0;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .mainHeader:hover .content {
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="mainHeader">
+            <img src="1.jpeg" alt="">
+            <div class="content">
+                <h4>welcome to WS</h4>
+                <p>Welcome & Comming Soon</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

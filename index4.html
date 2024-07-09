@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/b952633a01.js" crossorigin="anonymous"></script>
+    <style>
+        .header {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 2px 10px 0px lightgray;
+        }
+        
+        .left {
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .menu ul {
+            display: flex;
+            gap: 30px;
+        }
+        
+        .menu ul li {
+            list-style: none;
+            font-size: 20px;
+            color: darkblue;
+        }
+        
+        .right {
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+        
+        .inp {
+            width: 60%;
+            border: 1px solid lightgray;
+            border-radius: 5px;
+        }
+        
+        .inp input {
+            width: 65%;
+            padding: 10px;
+            border: none;
+        }
+        
+        .inp button {
+            width: 8%;
+            padding: 10px;
+            border: none;
+        }
+        
+        .search ul {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            padding: 10px;
+            margin-left: 10px;
+        }
+        
+        .search ul li {
+            list-style: none;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="left">
+            <div class="logo">
+                <h1>kundan</h1>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                    <li>home</li>
+                </ul>
+            </div>
+        </div>
+        <div class="right">
+            <div class="inp">
+                <form>
+                    <button>s</button>
+                    <input type="text" placeholder="Search the products & items">
+                </form>
+
+
+            </div>
+            <div class="search">
+                <ul>
+                    <li><i class="fa-regular fa-user"></i><br> Profile
+                    </li>
+                    <li><i class="fa-regular fa-heart"></i> <br> Wishlist
+                    </li>
+                    <li><i class="fa-solid fa-bag-shopping"></i> <br>Bag</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
